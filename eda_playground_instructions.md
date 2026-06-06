@@ -58,7 +58,7 @@ This file contains the interface, all class definitions (transaction, generator,
 
 ## Step 5 — Run the Simulation
 
-Click the green **▶ Run** button at the top.
+Click the green **Run** button at the top.
 
 The simulation will:
 - Compile both panels
