@@ -1,23 +1,10 @@
 # MESI Cache Coherence Protocol — SystemVerilog Implementation
-
-> **Course:** 23ECE333 — Functional Verification | **Batch:** 12 | **Semester:** VI | **AY:** 2025–2026  
-> **Institution:** Amrita School of Engineering | **Faculty:** Ms. Sonali Agrawal  
+   
 > **Simulated on:** [EDA Playground](https://edaplayground.com/) (Synopsys VCS / SystemVerilog)
 
----
 
-## 👥 Team Members
 
-| Name | Register No. | Branch |
-|---|---|---|
-| Asmitha Sathya Niranjan | BL.EN.U4ECE23001 | ECE |
-| Tommundrula Harsha Veena | BL.EN.U4ECE23049 | ECE |
-| Bindu Manasa Simhadri | BL.EN.U4ECE23106 | EAC |
-| Yellajosyula Krishna Vamsi | BL.EN.U4ECE23154 | EAC |
-
----
-
-## 📌 Project Overview
+##  Project Overview
 
 This project implements and verifies the **MESI (Modified, Exclusive, Shared, Invalid) cache coherence protocol** for a 3-processor shared-memory multiprocessor system using **SystemVerilog**. The design is verified using a fully **layered testbench** (UVM-style: Generator → Driver → Monitor → Scoreboard).
 
@@ -25,7 +12,7 @@ The MESI protocol ensures that all processors always see a consistent view of me
 
 ---
 
-## 🧠 MESI States
+##  MESI States
 
 | State | Code | Meaning |
 |---|---|---|
@@ -36,7 +23,7 @@ The MESI protocol ensures that all processors always see a consistent view of me
 
 ---
 
-## 🗂️ Repository Structure
+##  Repository Structure
 
 ```
 mesi-cache-coherence/
@@ -67,7 +54,7 @@ mesi-cache-coherence/
 
 ---
 
-## ⚙️ Design Architecture
+##  Design Architecture
 
 The system consists of:
 - **3 processors (A, B, C)**, each with its own **direct-mapped, write-back cache** (8 entries, 5-bit address space)
@@ -112,7 +99,7 @@ addr[2:0] = index (3 bits → 8 cache lines)
 
 ---
 
-## 🔬 How to Run on EDA Playground
+##  How to Run on EDA Playground
 
 > See [`sim/eda_playground_instructions.md`](sim/eda_playground_instructions.md) for full step-by-step instructions.
 
@@ -126,7 +113,7 @@ addr[2:0] = index (3 bits → 8 cache lines)
 
 ---
 
-## ✅ Expected Simulation Results
+##  Expected Simulation Results
 
 | Scenario | Expected Behaviour |
 |---|---|
@@ -140,7 +127,7 @@ addr[2:0] = index (3 bits → 8 cache lines)
 
 ---
 
-## 📚 References
+##  References
 
 1. Attada Sravanthi et al., "Implementation of MESI Protocol using Verilog," *IRJET*, Vol. 06, Issue 06, June 2019.
 2. Kalyani D. Kohle et al., "Design of cache controller for multicore systems using parallelization method," *IRF International Conference*, June 2014.
@@ -150,6 +137,4 @@ addr[2:0] = index (3 bits → 8 cache lines)
 
 ---
 
-## 📄 License
 
-This project was submitted as a mini-project for academic evaluation. All code is original work by the team members listed above.
