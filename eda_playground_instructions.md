@@ -12,7 +12,7 @@
 2. Click **Sign Up** (top right) or **Log In** if you already have an account
 3. You can also sign in with Google
 
-> ⚠️ You **must** be logged in to run simulations. Waveform viewing (EPWave) also requires login.
+> You **must** be logged in to run simulations. Waveform viewing (EPWave) also requires login.
 
 ---
 
