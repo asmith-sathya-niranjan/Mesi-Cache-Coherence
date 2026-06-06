@@ -126,7 +126,15 @@ addr[2:0] = index (3 bits → 8 cache lines)
 | Write-back on eviction | Dirty block written back to memory |
 
 ---
+## Team / Contributors
 
+| Name | GitHub |
+|------|--------|
+| Asmitha Sathya Niranjan| [@Asmitha Sathya Niranjan](https://github.com/asmith-sathya-niranjan) | 
+| Rishmita Achudan | [@username](https://github.com/username) |
+| Anumolu Harika | [@username](https://github.com/username) |
+| Tommundrula Harsha Veena | [@Tommundrula Harsha Veena](https://github.com/HarshaVeena2706) |
+---
 ##  References
 
 1. Attada Sravanthi et al., "Implementation of MESI Protocol using Verilog," *IRJET*, Vol. 06, Issue 06, June 2019.
