@@ -1,0 +1,23 @@
+# Simulation artifacts
+*.vcd
+*.vpd
+*.fsdb
+dump.*
+simv
+simv.daidir/
+csrc/
+ucli.key
+vc_hdrs.h
+DVEfiles/
+
+# EDA Playground downloads
+*.zip
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+.vscode/
