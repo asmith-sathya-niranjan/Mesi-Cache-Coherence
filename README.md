@@ -132,7 +132,7 @@ addr[2:0] = index (3 bits → 8 cache lines)
 |------|--------|
 | Asmitha Sathya Niranjan| [@Asmitha Sathya Niranjan](https://github.com/asmith-sathya-niranjan) | 
 | Bindu Manasa Simhadri | [@Bindu Manasa Simhadri]( https://github.com/Bindu1508) |
-| Vamsi | [@username](https://github.com/username) |
+| Vamsi | [@Vamsi](https://github.com/username) |
 | Tommundrula Harsha Veena | [@Tommundrula Harsha Veena](https://github.com/HarshaVeena2706) |
 
 ##  References
