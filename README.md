@@ -71,7 +71,7 @@ addr[2:0] = index (3 bits → 8 cache lines)
 
 ---
 
-## 🧪 Testbench Architecture (Layered TB)
+## Testbench Architecture (Layered TB)
 
 ```
 ┌─────────────┐     mailbox      ┌─────────────┐
